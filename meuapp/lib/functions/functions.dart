@@ -1,10 +1,15 @@
-import 'dart:convert';
-import 'dart:io';
+double soma(double n1, double n2) {
+  return n1 + n2;
+}
 
-void main(List<String> arguments) {
-  print("Bem vindos a nossa calculadora!");
+double subtracao(double n1, double n2) {
+  return n1 - n2;
+}
 
-  print("informe a primeira nota:");
-  var line = stdin.readLineSync(encoding: utf8);
-  var prova1 = int.parse(line == null ? "0" : line);
+double multiplicacao(double n1, double n2) {
+  return n1 * n2;
+}
+
+double divisao(double n1, double n2) {
+  return n1 / n2;
 }
